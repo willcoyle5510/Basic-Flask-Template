@@ -1,0 +1,54 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.232.253:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+INFO:app:Home
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:36:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:36:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in "c:\\Users\\S7139441\\OneDrive - St Joseph's College, Gregory Terrace\\2026-27\\Digital Solutions\\Term 3\\Basic-Flask-Template\\app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+INFO:app:Home
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:45:33] "GET / HTTP/1.1" 200 -
+INFO:app:Register
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:46:04] "GET /register HTTP/1.1" 200 -
+INFO:app:Home
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:51:56] "GET / HTTP/1.1" 200 -
+INFO:app:Home
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:52:08] "GET / HTTP/1.1" 200 -
+INFO:app:Register
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:52:50] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in "c:\\Users\\S7139441\\OneDrive - St Joseph's College, Gregory Terrace\\2026-27\\Digital Solutions\\Term 3\\Basic-Flask-Template\\app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.232.253:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+INFO:app:Login
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:58:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:58:44] "GET /static/css/custom.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 12:58:44] "GET /static/js/new_ajax_helper.js HTTP/1.1" 200 -
+INFO:app:Login
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 13:00:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 13:00:21] "GET /static/css/custom.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 13:00:21] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in "C:\\Users\\S7139441\\OneDrive - St Joseph's College, Gregory Terrace\\2026-27\\Digital Solutions\\Term 3\\Basic-Flask-Template\\app.py", reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 427-241-069
+INFO:app:Login
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2026 13:01:09] "GET / HTTP/1.1" 200 -

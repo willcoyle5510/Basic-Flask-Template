@@ -10,8 +10,23 @@ sys.tracebacklimit = 10
 #---VIEW FUNCTIONS----------------------------------------------------
 @app.route('/')
 def login():
+    app.logger.info("Login")
+    return "Login Page"
+
+@app.route('/register')
+def register():
+    app.logger.info("Register")
+    return "Registration Page"
+
+@app.route('/home')
+def home():
     app.logger.info("Home")
-    return "Hello World"
+    return "Home Page"
+
+@app.route('/admin')
+def admin():
+    app.logger.info("Admin")
+    return "Admin Page"
 
 #main method called web server application
 if __name__ == '__main__':
