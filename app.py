@@ -97,7 +97,7 @@ def register():
 
         if success:
             app.logger.info("Register")
-            return redirect(url_for('login'))
+            return redirect('/')
 
         message = "Registration failed. Please try again."
 
