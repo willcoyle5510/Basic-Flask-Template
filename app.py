@@ -47,8 +47,7 @@ def register():
             message = "Passwords do not match."
             return render_template('register.html', message=message)
         else:
-            DATABASE.ModifyQuery("INSERT INTO users (email, password, firstname, lastname) VALUES (?, ?, ?, ?)", (email, password, firstname, lastname))
-            return redirect('/')
+            results = DATABASE.ViewQuery("SELECT * FROM users WHERE email = ?", (email,))
 
     app.logger.info("Register")
     return render_template('register.html')
