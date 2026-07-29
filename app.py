@@ -44,11 +44,16 @@ def register():
         confirm_password = request.form.get('confirm_password')
 
         if password != confirm_password:
-            message = "Passwords do not match."
-            return render_template('register.html', message=message)
+            flash("Passwords do not match.")
         else:
             results = DATABASE.ViewQuery("SELECT * FROM users WHERE email = ?", (email,))
-
+            if not results:
+                DATABASE.ModifyQuery("INSERT INTO users (email, password, firstname, lastname) VALUES (?, ?, ?, ?)", (email, password, firstname, lastname))
+                flash("Registration successful. Please login.")
+                return redirect('/')
+            else:
+                flash("Email already exists. Please try again.")
+        
     app.logger.info("Register")
     return render_template('register.html')
 
