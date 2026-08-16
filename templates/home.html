@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block styles %}
+{% endblock %}
+
+{% block content %}
+    <h1>Login</h1>
+    <h2>{{session}}</h2>
+    {% if 'permission' in session %}
+        {% if session['permission'] == 'admin' %}
+            <p>All glory to the administrator!</p>
+        {% else %}
+            <p>Welcome, {{ session['email'] }}!</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
